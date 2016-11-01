@@ -21,7 +21,6 @@ http://stackoverflow.com/questions/912479/what-is-the-difference-between-javascr
 Naziv predavanja: JavaScript Transpilers
 
 Najava 
-
 Radionica je namijenjena početnicima koji su se upoznali s osnovama JavaScripte, međutim nisu koristili mogućnosti novijih verzija ECMAcript-a. Prikazati će se povijesni razvoj ECMAScript-e, nužnost postojanja JavaScript Transpilers-a te će biti prikazan rad s nekoliko različitih sustava koji prevode jednu verziju javascripte u drugu.
 
 CILJANA PUBLIKA: Za sve PREDZNANJE: Osnove JavaScript
