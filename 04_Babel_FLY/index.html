@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>OSC3JST</title>
+	</head>
+	<body>
+	
+		
+		<script src="../ChromeLogPrilagodba.js"></script>
+		<script src="lib/btib.min.js"></script>
+		<!-- ne radi iz učitane datoteke -->
+		<!-- <script type="text/es2015" src="src/skripta.js"></script> -->
+		<script type="text/es2015">
+		"use strict";
+
+		var nizObjekata = JSON.parse("[{\"ime\": \"Tomislav\", \"prezime\": \"Jakopec\"},{\"ime\": \"Dora\", \"prezime\": \"Krupićeva\"}]");
+
+		for (let value of nizObjekata) {
+		log(value.ime);
+		}
+
+
+		//primjer s https://github.com/voronianski/babel-transform-in-browser#download
+		const multiplier = (x) => (y) => x * y;
+		const double = multiplier(2);
+		const result = double(3);
+		console.log(result); 
+		// 6
+
+		class Cat { 
+			constructor(name) {
+				this.name = name;
+			}
+			speak() {
+				console.log(this.name + ' makes a noise.');
+			}
+		}
+
+		class Lion extends Cat {
+			speak() {
+				super.speak();
+				console.log(this.name + ' roars.');
+			}
+		}
+
+		let cat = new Cat('Simon');
+		cat.speak();
+		// Simon makes a noise.
+
+		let lion = new Lion('Sam');
+		lion.speak();
+		// Sam makes a noise. 
+		// Sam roars.
+		</script>
+	</body>
+</html>
