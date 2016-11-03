@@ -4,7 +4,8 @@ Osijek Software City Code Camp JavaScript Transpilers
 
 osnovni JS, bez "use strict"
 
-
+#ODLIČNO
+https://kangax.github.io/compat-table/es6/
 
 popis jezika koje je moguće compajlirati u JS
 https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
