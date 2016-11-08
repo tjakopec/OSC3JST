@@ -56,7 +56,7 @@ https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to
    [Ljetna škola informatike Osijek 2016]: <https://github.com/tjakopec/LJSI2016>
    [Čisti JS]: <https://github.com/tjakopec/CistiJS/>
    [ECMAScript 6 compatibility table]: <https://kangax.github.io/compat-table/es6/>
-   [Babel · The compiler for writing next generation JavaScript]: <https://babeljs.io/>
+   [Babel: The compiler for writing next generation JavaScript]: <https://babeljs.io/>
    [Traceur: JavaScript.next-to-JavaScript-of-today compiler]: <https://github.com/google/traceur-compiler>
    [Closure Compiler]:<https://developers.google.com/closure/compiler/>
    [core-js: Modular standard library for JavaScript]: <https://github.com/zloirock/core-js>
